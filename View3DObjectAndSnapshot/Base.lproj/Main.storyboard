@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sFg-iU-21O">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="dfV-l5-fpG">
+            <objects>
+                <viewController id="sFg-iU-21O" customClass="ViewController" customModule="View3DObjectAndSnapshot" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DNd-D7-XYf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PlE-6t-Y7q">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </arscnView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yOX-kp-LtH">
+                                <rect key="frame" x="269" y="64" width="125" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="c5Z-Eh-TFQ"/>
+                                    <constraint firstAttribute="height" constant="40" id="tXF-fP-joB"/>
+                                </constraints>
+                                <state key="normal" title="View Snapshots">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="btnLoadImagesAction:" destination="sFg-iU-21O" eventType="touchUpInside" id="nIJ-tC-Wod"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jB9-I1-JtZ">
+                                <rect key="frame" x="20" y="64" width="125" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Delete Snapshots">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="btnClearDataAction:" destination="sFg-iU-21O" eventType="touchUpInside" id="4bG-Y7-Ovb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0M4-dT-aF8">
+                                <rect key="frame" x="177" y="782.5" width="60" height="59"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="QmZ-Ab-0ST"/>
+                                    <constraint firstAttribute="width" constant="60" id="dsM-pW-RC6"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" backgroundImage="circle.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnSnapshotAction:" destination="sFg-iU-21O" eventType="touchUpInside" id="bnm-PT-b1V"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p9r-wC-74m">
+                                <rect key="frame" x="269" y="792" width="125" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Clear Objects">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="btnClearARviewAction:" destination="sFg-iU-21O" eventType="touchUpInside" id="q2k-ht-KHe"/>
+                                </connections>
+                            </button>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hfc-MN-VMb">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xc2-DC-JB9"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="PlE-6t-Y7q" firstAttribute="centerY" secondItem="DNd-D7-XYf" secondAttribute="centerY" id="0Z2-Mf-0QP"/>
+                            <constraint firstItem="xc2-DC-JB9" firstAttribute="trailing" secondItem="p9r-wC-74m" secondAttribute="trailing" constant="20" id="0wK-kW-Swh"/>
+                            <constraint firstItem="PlE-6t-Y7q" firstAttribute="centerX" secondItem="xc2-DC-JB9" secondAttribute="centerX" id="5YW-Kv-etc"/>
+                            <constraint firstItem="jB9-I1-JtZ" firstAttribute="leading" secondItem="xc2-DC-JB9" secondAttribute="leading" constant="20" id="GJC-dw-xUg"/>
+                            <constraint firstItem="p9r-wC-74m" firstAttribute="centerY" secondItem="0M4-dT-aF8" secondAttribute="centerY" id="K4H-Lb-Jhb"/>
+                            <constraint firstItem="p9r-wC-74m" firstAttribute="width" secondItem="jB9-I1-JtZ" secondAttribute="width" id="K9h-Ud-uXK"/>
+                            <constraint firstItem="hfc-MN-VMb" firstAttribute="centerY" secondItem="PlE-6t-Y7q" secondAttribute="centerY" id="Nhb-se-3nw"/>
+                            <constraint firstItem="PlE-6t-Y7q" firstAttribute="height" secondItem="DNd-D7-XYf" secondAttribute="height" id="OHb-IU-MAl"/>
+                            <constraint firstItem="yOX-kp-LtH" firstAttribute="top" secondItem="xc2-DC-JB9" secondAttribute="top" constant="20" id="PUA-pW-X7P"/>
+                            <constraint firstItem="xc2-DC-JB9" firstAttribute="trailing" secondItem="yOX-kp-LtH" secondAttribute="trailing" constant="20" id="YGl-P0-FSk"/>
+                            <constraint firstItem="0M4-dT-aF8" firstAttribute="centerX" secondItem="xc2-DC-JB9" secondAttribute="centerX" id="aDE-Jy-HyO"/>
+                            <constraint firstItem="xc2-DC-JB9" firstAttribute="bottom" secondItem="0M4-dT-aF8" secondAttribute="bottom" constant="20" id="axS-dn-ibs"/>
+                            <constraint firstItem="hfc-MN-VMb" firstAttribute="centerX" secondItem="PlE-6t-Y7q" secondAttribute="centerX" id="duC-Wd-0W8"/>
+                            <constraint firstItem="jB9-I1-JtZ" firstAttribute="centerY" secondItem="yOX-kp-LtH" secondAttribute="centerY" id="lT7-Cr-0VE"/>
+                            <constraint firstItem="jB9-I1-JtZ" firstAttribute="height" secondItem="yOX-kp-LtH" secondAttribute="height" id="mbq-zT-wtV"/>
+                            <constraint firstItem="PlE-6t-Y7q" firstAttribute="width" secondItem="DNd-D7-XYf" secondAttribute="width" id="nPU-PH-RAJ"/>
+                            <constraint firstItem="p9r-wC-74m" firstAttribute="height" secondItem="jB9-I1-JtZ" secondAttribute="height" id="o6S-dx-5QM"/>
+                            <constraint firstItem="jB9-I1-JtZ" firstAttribute="width" secondItem="yOX-kp-LtH" secondAttribute="width" id="tlG-8M-GzF"/>
+                            <constraint firstItem="hfc-MN-VMb" firstAttribute="width" secondItem="PlE-6t-Y7q" secondAttribute="width" id="uKd-NG-7ba"/>
+                            <constraint firstItem="hfc-MN-VMb" firstAttribute="height" secondItem="PlE-6t-Y7q" secondAttribute="height" id="vNf-YL-kZm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnClearARView" destination="p9r-wC-74m" id="NAD-56-reA"/>
+                        <outlet property="btnClearData" destination="jB9-I1-JtZ" id="rvs-5a-iXK"/>
+                        <outlet property="btnLoadImages" destination="yOX-kp-LtH" id="1MY-hx-UDN"/>
+                        <outlet property="btnSnapshot" destination="0M4-dT-aF8" id="cOY-ij-Ehb"/>
+                        <outlet property="sceneView" destination="PlE-6t-Y7q" id="coO-rB-Kwr"/>
+                        <outlet property="vwShutter" destination="hfc-MN-VMb" id="2an-Nu-fTJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a7Z-bO-Pq9" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-196" y="52"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="circle.fill" catalog="system" width="128" height="121"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

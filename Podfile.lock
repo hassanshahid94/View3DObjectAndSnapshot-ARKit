@@ -1,0 +1,16 @@
+PODS:
+  - RappleProgressHUD (4.1)
+
+DEPENDENCIES:
+  - RappleProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - RappleProgressHUD
+
+SPEC CHECKSUMS:
+  RappleProgressHUD: f29bc5dc5f9834c2caa9c2ae21ba11f3ff2b5a85
+
+PODFILE CHECKSUM: f51123b8a4a31f16689b4877356ccf85c12d3e3c
+
+COCOAPODS: 1.9.3

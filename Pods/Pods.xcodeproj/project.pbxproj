@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D0B9ADC8B09797815F4CBBDDE05DE1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2121F38B5578D65354B8F4E80D5697D3 /* RappleProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D48645A7D9D4252E048DE933AB9A57F7 /* RappleProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CDEEF0A9F9A132E78CAE71C1E5B1D81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4D5F1E30AB0049BC75AC66DFF655EF76 /* RappleProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726CC8E6A9A8856652279F5643ED8D96 /* RappleProgressHUD.swift */; };
+		79D275C39C416F1B380DCB6CE2906684 /* RappleAIUIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F7A066CA8EF299DA4F6B1B33A5661F /* RappleAIUIs.swift */; };
+		8EB7CBBE4C2E8FF0C5185BD98581BA40 /* Pods-View3DObjectAndSnapshot-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9D8DAED2C468434B134B91E45672EDA /* Pods-View3DObjectAndSnapshot-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C280E92CFAA3CCF0E7ACAC93C177BA06 /* Pods-View3DObjectAndSnapshot-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C3C0F4C29E1C65E5470491A598DDBE /* Pods-View3DObjectAndSnapshot-dummy.m */; };
+		C35C17651B6CBFE05FAA7137A891E5D7 /* RappleAIAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64A1C347CD74A234BB5288E8D0373E8 /* RappleAIAction.swift */; };
+		C3DDE3CA95A8024569F600D5E205128D /* RappleAIPrivate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8685BD640D27901AF217EAD30D5ECAA1 /* RappleAIPrivate.swift */; };
+		D42A0B5FF12D13EEBD85D69FFDECC242 /* RappleActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C8EE17ADFD6D1B64211B77A28C6ED0 /* RappleActivityIndicatorView.swift */; };
+		F75055A79E614BEA299E620910D3BBCD /* RappleProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E332694BF290B2F7F414B155F81AF4 /* RappleProgressHUD-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		721E3AC294CEF239F56CE523AE2F9708 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEBB0AF339A0BACF1A004A1E44E9BE9D;
+			remoteInfo = RappleProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10E332694BF290B2F7F414B155F81AF4 /* RappleProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RappleProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		1310B9C2726F6C413CE1E8BE4C431F13 /* Pods_View3DObjectAndSnapshot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_View3DObjectAndSnapshot.framework; path = "Pods-View3DObjectAndSnapshot.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E518A8E4CA1FDB2D64F6E4F528F1C5 /* Pods-View3DObjectAndSnapshot-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-View3DObjectAndSnapshot-frameworks.sh"; sourceTree = "<group>"; };
+		28C3C0F4C29E1C65E5470491A598DDBE /* Pods-View3DObjectAndSnapshot-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-View3DObjectAndSnapshot-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		434D14860FDBD538E02E9B9F8D0B8C3A /* RappleProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RappleProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		4437B303A7FFF2163B7A86EC233CA273 /* Pods-View3DObjectAndSnapshot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-View3DObjectAndSnapshot.modulemap"; sourceTree = "<group>"; };
+		4A3E88879EE89F934D859F90D3B2807B /* Pods-View3DObjectAndSnapshot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-View3DObjectAndSnapshot.release.xcconfig"; sourceTree = "<group>"; };
+		5564CB3A6039AE554809C5EAB685CD52 /* Pods-View3DObjectAndSnapshot-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-View3DObjectAndSnapshot-acknowledgements.plist"; sourceTree = "<group>"; };
+		726CC8E6A9A8856652279F5643ED8D96 /* RappleProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RappleProgressHUD.swift; path = Sources/RappleProgressHUD/RappleProgressHUD.swift; sourceTree = "<group>"; };
+		83C8EE17ADFD6D1B64211B77A28C6ED0 /* RappleActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RappleActivityIndicatorView.swift; path = Sources/RappleProgressHUD/RappleActivityIndicatorView.swift; sourceTree = "<group>"; };
+		8685BD640D27901AF217EAD30D5ECAA1 /* RappleAIPrivate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RappleAIPrivate.swift; path = Sources/RappleProgressHUD/RappleAIPrivate.swift; sourceTree = "<group>"; };
+		8AA784C0E08786B17DB517A8E473D152 /* RappleProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RappleProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		94F7A066CA8EF299DA4F6B1B33A5661F /* RappleAIUIs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RappleAIUIs.swift; path = Sources/RappleProgressHUD/RappleAIUIs.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B143C5F57AD4AB6845CAD2998ED7AE4E /* Pods-View3DObjectAndSnapshot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-View3DObjectAndSnapshot.debug.xcconfig"; sourceTree = "<group>"; };
+		B6D26449FEDEB740873B9C367B41E8EC /* Pods-View3DObjectAndSnapshot-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-View3DObjectAndSnapshot-Info.plist"; sourceTree = "<group>"; };
+		B9D8DAED2C468434B134B91E45672EDA /* Pods-View3DObjectAndSnapshot-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-View3DObjectAndSnapshot-umbrella.h"; sourceTree = "<group>"; };
+		BE0DEE8F8D15E998196ED68BF83FA0AB /* RappleProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RappleProgressHUD.framework; path = RappleProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53CDCD78F605DEF7D1092486CEDFEC7 /* RappleProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RappleProgressHUD.modulemap; sourceTree = "<group>"; };
+		CD119B1C26F14C86A5A3F24C7553E21B /* Pods-View3DObjectAndSnapshot-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-View3DObjectAndSnapshot-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D48645A7D9D4252E048DE933AB9A57F7 /* RappleProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RappleProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		F4DA8CB89994AC2056417A5D01DABFC2 /* RappleProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RappleProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		F526FE8DC1B4755A676F78AB43FDB024 /* RappleProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RappleProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		F64A1C347CD74A234BB5288E8D0373E8 /* RappleAIAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RappleAIAction.swift; path = Sources/RappleProgressHUD/RappleAIAction.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A02841CD2241093577D5647A61D5276A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0B9ADC8B09797815F4CBBDDE05DE1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF22F7B03E6111B376B0EA981007624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDEEF0A9F9A132E78CAE71C1E5B1D81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16A342C56F02836EC0039EAD6F202AAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1310B9C2726F6C413CE1E8BE4C431F13 /* Pods_View3DObjectAndSnapshot.framework */,
+				BE0DEE8F8D15E998196ED68BF83FA0AB /* RappleProgressHUD.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60AD2E8C7A3C6A7AB9FBB55C1E26EFFA /* RappleProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				83C8EE17ADFD6D1B64211B77A28C6ED0 /* RappleActivityIndicatorView.swift */,
+				F64A1C347CD74A234BB5288E8D0373E8 /* RappleAIAction.swift */,
+				8685BD640D27901AF217EAD30D5ECAA1 /* RappleAIPrivate.swift */,
+				94F7A066CA8EF299DA4F6B1B33A5661F /* RappleAIUIs.swift */,
+				726CC8E6A9A8856652279F5643ED8D96 /* RappleProgressHUD.swift */,
+				E8328574A9D4E14B4A7999CE98A90EE0 /* Support Files */,
+			);
+			name = RappleProgressHUD;
+			path = RappleProgressHUD;
+			sourceTree = "<group>";
+		};
+		6144100AE94CDC2DCFAEACCE4D59C6C0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC4C3F7A6CB1F0F4A0AD317539E49F33 /* Pods-View3DObjectAndSnapshot */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC4C3F7A6CB1F0F4A0AD317539E49F33 /* Pods-View3DObjectAndSnapshot */ = {
+			isa = PBXGroup;
+			children = (
+				4437B303A7FFF2163B7A86EC233CA273 /* Pods-View3DObjectAndSnapshot.modulemap */,
+				CD119B1C26F14C86A5A3F24C7553E21B /* Pods-View3DObjectAndSnapshot-acknowledgements.markdown */,
+				5564CB3A6039AE554809C5EAB685CD52 /* Pods-View3DObjectAndSnapshot-acknowledgements.plist */,
+				28C3C0F4C29E1C65E5470491A598DDBE /* Pods-View3DObjectAndSnapshot-dummy.m */,
+				25E518A8E4CA1FDB2D64F6E4F528F1C5 /* Pods-View3DObjectAndSnapshot-frameworks.sh */,
+				B6D26449FEDEB740873B9C367B41E8EC /* Pods-View3DObjectAndSnapshot-Info.plist */,
+				B9D8DAED2C468434B134B91E45672EDA /* Pods-View3DObjectAndSnapshot-umbrella.h */,
+				B143C5F57AD4AB6845CAD2998ED7AE4E /* Pods-View3DObjectAndSnapshot.debug.xcconfig */,
+				4A3E88879EE89F934D859F90D3B2807B /* Pods-View3DObjectAndSnapshot.release.xcconfig */,
+			);
+			name = "Pods-View3DObjectAndSnapshot";
+			path = "Target Support Files/Pods-View3DObjectAndSnapshot";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				ED3F8DF6B11B14A4987469CB6E50D95A /* Pods */,
+				16A342C56F02836EC0039EAD6F202AAD /* Products */,
+				6144100AE94CDC2DCFAEACCE4D59C6C0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8328574A9D4E14B4A7999CE98A90EE0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C53CDCD78F605DEF7D1092486CEDFEC7 /* RappleProgressHUD.modulemap */,
+				10E332694BF290B2F7F414B155F81AF4 /* RappleProgressHUD-dummy.m */,
+				434D14860FDBD538E02E9B9F8D0B8C3A /* RappleProgressHUD-Info.plist */,
+				F526FE8DC1B4755A676F78AB43FDB024 /* RappleProgressHUD-prefix.pch */,
+				D48645A7D9D4252E048DE933AB9A57F7 /* RappleProgressHUD-umbrella.h */,
+				F4DA8CB89994AC2056417A5D01DABFC2 /* RappleProgressHUD.debug.xcconfig */,
+				8AA784C0E08786B17DB517A8E473D152 /* RappleProgressHUD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RappleProgressHUD";
+			sourceTree = "<group>";
+		};
+		ED3F8DF6B11B14A4987469CB6E50D95A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60AD2E8C7A3C6A7AB9FBB55C1E26EFFA /* RappleProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C8A3F44DC9F26F55B4B4F50C74E7EC34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2121F38B5578D65354B8F4E80D5697D3 /* RappleProgressHUD-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E705EB468916B5EB4A7CD9DBFD264F5C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB7CBBE4C2E8FF0C5185BD98581BA40 /* Pods-View3DObjectAndSnapshot-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F525A98B7A7AA2B106995DC5D1E22ABB /* Pods-View3DObjectAndSnapshot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABC33CB801D253AA9B8EBAB73AC6B20 /* Build configuration list for PBXNativeTarget "Pods-View3DObjectAndSnapshot" */;
+			buildPhases = (
+				E705EB468916B5EB4A7CD9DBFD264F5C /* Headers */,
+				6C05466E83CFE5463413A7E34D7E2C70 /* Sources */,
+				DBF22F7B03E6111B376B0EA981007624 /* Frameworks */,
+				940F8F58A55496F8DC191675CAB2D3EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12D4A43C4082347A1B0F4208AF5A0513 /* PBXTargetDependency */,
+			);
+			name = "Pods-View3DObjectAndSnapshot";
+			productName = "Pods-View3DObjectAndSnapshot";
+			productReference = 1310B9C2726F6C413CE1E8BE4C431F13 /* Pods_View3DObjectAndSnapshot.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FEBB0AF339A0BACF1A004A1E44E9BE9D /* RappleProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B394E03E4E4A55C7E70A99D5519695F /* Build configuration list for PBXNativeTarget "RappleProgressHUD" */;
+			buildPhases = (
+				C8A3F44DC9F26F55B4B4F50C74E7EC34 /* Headers */,
+				D37653AB5434F5667B8D8837C581CF3C /* Sources */,
+				A02841CD2241093577D5647A61D5276A /* Frameworks */,
+				FD3E1E18DFD25829D9EDB5AAB52C5B5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RappleProgressHUD;
+			productName = RappleProgressHUD;
+			productReference = BE0DEE8F8D15E998196ED68BF83FA0AB /* RappleProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 16A342C56F02836EC0039EAD6F202AAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F525A98B7A7AA2B106995DC5D1E22ABB /* Pods-View3DObjectAndSnapshot */,
+				FEBB0AF339A0BACF1A004A1E44E9BE9D /* RappleProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		940F8F58A55496F8DC191675CAB2D3EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3E1E18DFD25829D9EDB5AAB52C5B5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C05466E83CFE5463413A7E34D7E2C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C280E92CFAA3CCF0E7ACAC93C177BA06 /* Pods-View3DObjectAndSnapshot-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37653AB5434F5667B8D8837C581CF3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42A0B5FF12D13EEBD85D69FFDECC242 /* RappleActivityIndicatorView.swift in Sources */,
+				C35C17651B6CBFE05FAA7137A891E5D7 /* RappleAIAction.swift in Sources */,
+				C3DDE3CA95A8024569F600D5E205128D /* RappleAIPrivate.swift in Sources */,
+				79D275C39C416F1B380DCB6CE2906684 /* RappleAIUIs.swift in Sources */,
+				F75055A79E614BEA299E620910D3BBCD /* RappleProgressHUD-dummy.m in Sources */,
+				4D5F1E30AB0049BC75AC66DFF655EF76 /* RappleProgressHUD.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12D4A43C4082347A1B0F4208AF5A0513 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RappleProgressHUD;
+			target = FEBB0AF339A0BACF1A004A1E44E9BE9D /* RappleProgressHUD */;
+			targetProxy = 721E3AC294CEF239F56CE523AE2F9708 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		44AFE18C3097B2DD4D39686940853560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4DA8CB89994AC2056417A5D01DABFC2 /* RappleProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RappleProgressHUD/RappleProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RappleProgressHUD/RappleProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RappleProgressHUD/RappleProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = RappleProgressHUD;
+				PRODUCT_NAME = RappleProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79A2150EBD0899DE884DAFCA0A308696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AA784C0E08786B17DB517A8E473D152 /* RappleProgressHUD.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RappleProgressHUD/RappleProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RappleProgressHUD/RappleProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RappleProgressHUD/RappleProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = RappleProgressHUD;
+				PRODUCT_NAME = RappleProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DADDAFCAE781BEF091F99C7EB4F19CB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B143C5F57AD4AB6845CAD2998ED7AE4E /* Pods-View3DObjectAndSnapshot.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-View3DObjectAndSnapshot/Pods-View3DObjectAndSnapshot-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-View3DObjectAndSnapshot/Pods-View3DObjectAndSnapshot.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EFDCE7B741643AA95FE7D5CF04690B81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3E88879EE89F934D859F90D3B2807B /* Pods-View3DObjectAndSnapshot.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-View3DObjectAndSnapshot/Pods-View3DObjectAndSnapshot-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-View3DObjectAndSnapshot/Pods-View3DObjectAndSnapshot.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
+				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B394E03E4E4A55C7E70A99D5519695F /* Build configuration list for PBXNativeTarget "RappleProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44AFE18C3097B2DD4D39686940853560 /* Debug */,
+				79A2150EBD0899DE884DAFCA0A308696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABC33CB801D253AA9B8EBAB73AC6B20 /* Build configuration list for PBXNativeTarget "Pods-View3DObjectAndSnapshot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADDAFCAE781BEF091F99C7EB4F19CB7 /* Debug */,
+				EFDCE7B741643AA95FE7D5CF04690B81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
